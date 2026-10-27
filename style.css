@@ -13,7 +13,8 @@ header{
 nav{
     padding: 10px;
     text-transform: uppercase;
-    text-align: center;   
+    text-align: center;  
+     
 }
 #home{
     color: burlywood;
@@ -40,14 +41,26 @@ h2{
     text-transform: uppercase;
     text-align: left;
     margin: 50px;
-    margin-right: 40px;
     transform: translateX(-15px);
     color: burlywood;
 }
 ul,ol{
-      gap: 50px; 
+      gap: 50px;
+      font-size: 20px; 
 }
 video{
     display: block;
     margin:0 auto;
+}
+.task {
+    list-style: none;
+    text-align: center ;
+      margin: 50px;  
+}
+.taskk {
+     text-decoration: none ;
+    border: 1px solid black;
+      width: 200px; background-color: #8fbc8f;
+      color: #fff; font-size: 22px;
+      padding: 20px;
 }
